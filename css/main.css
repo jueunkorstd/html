@@ -20,10 +20,10 @@
     margin: 10px;
     padding: 40px;
     border-radius: 5px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     color: white;
     font-size: 10px;
+    box-shadow: 10px 5px 5px black;
 }
 /* 셀렉터 우선순위  style > id > class > tag */
