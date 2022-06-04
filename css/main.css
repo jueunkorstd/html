@@ -21,6 +21,20 @@
 }
 /* 셀렉터 우선순위  style > id > class > tag */
 
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     display: block;
@@ -63,6 +77,7 @@
 .blog-img {
     width: 20%;
     height: 200px;
+
     float: left;
 }
 
