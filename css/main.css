@@ -189,3 +189,74 @@ margin: 0px;
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.form-box {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #dbdbdb;
+}
+
+.firstname-input {
+    width: 100px;
+    height: 25px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+}
+
+.lastname-input {
+    width: 100px;
+    height: 25px;
+    border: 1px solid #dbdbdb;
+}
+
+.email-box {
+    padding-bottom: 10px;
+}
+
+.email-input {
+    width: 220px;
+    height: 25px;
+    border: 1px solid #dbdbdb;
+}
+
+.email-box>p {
+    margin-bottom: 10px;
+}
+
+.firstname {
+    margin-right: 45px;
+}
+
+.name-line {
+    margin-bottom: 5px;
+}
+
+.message-box>p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.message-input {
+    width: 220px;
+    height: 75px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.form-bottom-checkbox::before {
+    width: 10px;
+    background: gray;
+    border: none;
+}
+
+.form-bottom>span {
+    margin-right: 25px;
+}
+
+.form-bottom-submit {
+    width: 100px;
+    border: none;
+    background-color: yellow;
+}

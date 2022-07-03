@@ -36,17 +36,34 @@
         <input type="submit" name="" id=""input>
     </form>
 
-    <div>
+    <div class="form-box">
         <h3>Contact us</h3>
-        <p>Your Email</p>
-        <input type="email">
-        <p>First name</p>
-        <input type="text"><p>Last name</p><input type="text">
-        <p>Message</p>
-        <input type="text">
-        <input type="checkbox">
-        <p>Subscribe</p>
-        <input type="submit">
+
+        <div class="email-box">
+            <p>Your Email</p>
+        <input type="email" placeholder="email@example@email.com" class="email-input">
+        </div>
+
+        <div class="name-box">
+            <div class="name-line">
+                <span class="firstname">First name</span>
+                <span>Last name</span>
+            </div>
+            <input type="text" class="firstname-input">
+            <input type="text" class="lastname-input">
+        </div>
+
+        <div class="message-box">
+            <p>Message</p>
+            <input type="text" class="message-input">
+        </div>
+       
+        <div class="form-bottom">
+            <input type="checkbox" class="form-bottom-checkbox">
+            <span>Subscribe</span>
+            <input type="submit" class="form-bottom-submit">
+        </div>
+
     </div>
 
 
