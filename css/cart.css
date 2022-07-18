@@ -1,3 +1,15 @@
+.f-small {
+    font-size: 12px;
+}
+
+.font-mid {
+    font-size: 16px;
+}
+
+.font-lg {
+    font-size: 20px;
+}
+
 body {
     margin: 0px;
     }
@@ -29,4 +41,61 @@ body {
 
 .cell-long {
     width: 700px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+
+.btn:focus {
+    background-color: gray;
+}
+
+.btn:active {
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.input-test:focus {
+    border: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color: violet;
+}
+
+.custom-link:blank {
+    color: violet;
+}
+
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;;
+    cursor: pointer;
+    color: white;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
 }
